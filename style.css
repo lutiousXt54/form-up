@@ -1,0 +1,103 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+.container{
+    height:100vh;
+    display:flex;
+    justify-content: center;
+    background-color: #8fd5d5;
+}
+.content{
+    width:400px;
+    height:fit-content;
+    display:flex;
+    flex-direction: column;
+    padding:20px;
+    margin-top:20px;
+    border-radius:5px;
+    background-color:white;
+}    
+.content h1{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.content > label{
+    font-size:17px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight:700;
+}
+.content > .user{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top:5px;
+    margin-bottom:10px;
+}
+.user > img{
+    width:20px;
+}
+input{
+    border:0px;
+    border-bottom:solid 1px;
+    outline:0px;
+    width:100%;
+    margin-left:2px;
+    padding:10px;
+}
+input::placeholder{
+    font-size:15px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight:200;
+}
+.content > .pass{
+    display: flex;
+    flex-direction:row;
+    align-items: center;
+    margin-top:5px;
+}
+.pass > img{
+    width:25px;
+    mix-blend-mode: multiply;
+}
+a{
+    color:darkgrey;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight:400;
+    text-decoration: none;
+}
+a:hover{
+    color:blue;
+}
+a:focus{
+    color: red;
+}
+button{
+    color: white;
+    font-size:17px;
+    background-color:rgba(183,86,173,255);
+    border: none;
+    border-radius:5px;
+    padding:7px;
+}
+.signup{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top:40px;
+}
+.social{
+    width:100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top:10px;
+}
+.signup > p{
+    font-size:18px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight:600;
+}
+.social img{
+    width:30px;
+}
